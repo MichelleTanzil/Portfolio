@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px dotted red;   */
+}
+
+body{
+    width: 970px; 
+    margin: 0 auto; 
+}
+
+/* Header */
+
+header{
+    background-image: linear-gradient(#F2F2F2, #FEFEFE);
+    width: 100%; 
+    height: 100px;
+}
+
+header h1 {
+    width: 50%;
+    padding-top: 30px; 
+    padding-left: 30px;    
+}
+
+header h2{
+    width: 50%;
+    margin-left: -4px; 
+    padding-right: 40px; 
+}
+
+/* Wrapper */
+#wrapper {
+    background-image: linear-gradient(#1A0A0E, #6F5964, #1A0A0E);
+}
+
+/* Primary Container - Profile Pic & About Me */
+#container-primary{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#container-primary img {
+    border: 5px solid #C0C0C0;
+    height: 270px; 
+    margin-top: 15px; 
+}
+
+#about-me {
+    width: 50%;
+    margin-top: 15px; 
+    margin-left: 15px;
+    height: 250px;
+}
+
+#about-me p{
+    padding: 10px 5px; 
+}
+
+#about-me a {
+    display: block;
+    color: black;
+    padding-bottom: 20px;  
+}
+
+/* Projects */
+
+#container-seconday{
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.one-third{
+    width: 32%;
+    margin: 25px 0;
+}
+
+.mid-col{
+    margin-right: 13px; 
+    margin-left: 13px;
+}
+
+.project-img{
+    width: 100%; 
+}
+
+.tech-img li {
+    list-style: none;
+    display: inline; 
+}
+.tech-img img {
+    width: 14%; 
+    margin: 2%;
+    padding-top: 5px; 
+}
+
+.project-text {
+    min-height: 175px; 
+    padding-top: 5px; 
+}
+
+.project-link{
+    background-color: #407D61;
+    color: #FFFEFD;
+    border: 1px solid black;
+    border-radius: 9px; 
+    margin: 20px 29%;
+    padding: 5px; 
+}
+
+/* Footer */
+footer p {
+    text-align: center;
+}
+
+.social img {
+    width: 18px; 
+}
+
+ul.social{
+    text-align: center; 
+}
+
+.social li{
+    list-style: none;
+    display: inline;
+    text-align: center; 
+}
+
+.social a {
+    color: black;
+    font-style: italic;
+}
+
+/* Alignment */
+.va-top{
+    vertical-align: top;
+}
+
+/* Display */
+.d-inline-block{
+    display: inline-block; 
+}
+
+/* Background */
+.bg-titles{
+    background-image: linear-gradient(#A7A6AD, #888794,#AEAEB2);
+    color: white;
+    padding: 7px 0 7px 7px; 
+} 
+
+.bg-text{
+    background-image: linear-gradient(to right, #FFFFFF, #DACCD9);
+}
